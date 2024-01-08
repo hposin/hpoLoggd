@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+nav {
+    position: absolute;
+    left: 180px;
+	width: 1200px;
+    height: 80px;
+	padding: 10px 0;
+	z-index: 12;
+    border-radius: 5px;
+}
+
+nav .menu {
+	max-width: 1200px;
+	margin: auto;
+    display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px,;
+    padding-left: 20px;
+	margin-left: 5px;
+}
+.Search{
+	margin-left: 5px;
+	height: 30px;
+	border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    color: #000000;
+}
+.menu .logo img {
+    margin-top: 10px;
+	width: 300px;
+}
+
+.menu {
+	list-style: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #878db1;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 8px 15px;
+	border-radius: 50px;
+	transition: all 0.3s ease;
+}
+
+.menu a:hover {
+	color: #ffffff;
+}
+
+body {
+    background-image: url(../images/gamesM/gameBgs/bayonetta2.jpg);
+    background-size: cover;
+    background-position: top center;
+	background-repeat: no-repeat;
+}
+.main{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    width: 1200px;
+    height: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 16%, rgba(0,0,0,1) 71%, rgb(0, 0, 0) 100%); 
+}
+.coverart{
+    position: absolute;
+    top: 100px;
+    left: 53px;
+	border-radius: 5px;
+	height: 300px;
+	width: 200px;
+	display:inline-block;
+    z-index: 1;
+}
+.edit{
+    position: absolute;
+    top: 280px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    color: white;
+    height: 330px;
+    width: 267px;
+}
+.log_edit{
+    position: absolute;
+    top: 135px;
+    left: 34px;
+    background-color: rgb(255, 57, 123);
+    color: white;
+    border-radius: 5px;
+    width: 196px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.desc{  
+    position: absolute;
+    left: 330px;
+    top: 250px;
+}
+.platforms{
+    position: absolute;
+    left: 910px;
+    top: 275px;
+}
+.platforms div{
+    border:solid #ffffff;
+    float: inline-start;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.genres{
+    position: absolute;
+    left: 910px;
+    top: 410px;
+}
+.genres div{
+    border:solid #ffffff;
+    float: inline-start;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.stars img{
+    width: 40px;
+    height: 35px;
+    padding-left: 5px;
+}
+.stars{
+    position:absolute;
+    top: 180px;
+    left: 20px;
+}
+.status{
+    position: absolute;
+    top: 215px;
+    left: 35px;
+    padding:2px,2px,5px,20px;
+    margin-top: 10px;
+    color: rgb(99, 99, 99);
+}
+.status img{
+    width: 40px;
+    height: 35px;
+    margin: 2px;
+}
+hr{
+    margin-bottom: 10px;
+}
+.comments{
+    width: 1519px;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 630px;
+    left: -160px;
+    background-color: black;
+
+}
+.comments{
+    padding-bottom: 100px;
+}
+.comments img{
+    border: solid white;
+    width: 60px;
+    height: 60px;
+}
+.comments hr{
+    position: absolute;
+    left: 500px;
+    margin-top: 30px;
+    width: 650px;
+}
+.user{
+    display: flex;
+    padding: 10px;
+}
+.user p{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.comment{
+    position: absolute;
+    left: 575px;
+}
+.com{
+    margin-top: 50px;
+}
